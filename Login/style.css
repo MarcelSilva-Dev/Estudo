@@ -1,0 +1,71 @@
+body {
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    color: #030303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #cac0c0;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    text-decoration-color: rgb(197, 156, 5);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button.btn {
+    background-color: #2a695e;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btn:hover {
+    background-color: #a90505;
+  }
+  
+  .forgot-password-link {
+    color: #060606;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
